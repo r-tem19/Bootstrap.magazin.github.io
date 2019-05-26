@@ -141,6 +141,29 @@ ul{
   font-size: 14px;
 }
 
+.carousel{
+  z-index: 0;
+}
+
+.carousel-control-prev,.carousel-control-next{
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.carousel-control-prev{
+  border-top-right-radius:100%;
+  border-bottom-right-radius:100%;
+}
+
+.carousel-control-next{
+  border-top-left-radius:100%;
+  border-bottom-left-radius:100%;
+}
+
 @media (min-width:992px){
   .main-nav-outer{
     width: initial;
