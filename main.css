@@ -108,7 +108,8 @@ ul{
 
 .nav-icons .dropdown-menu{
   margin-top: 40px;
-  margin-left: -320px;
+  width: 290px;
+  margin-left: -230px;
   position: relative;
   background-color: #fff;
 }
@@ -135,6 +136,11 @@ ul{
   color: #333;
 }
 
+.promo{
+  background-color: #333;
+  font-size: 14px;
+}
+
 @media (min-width:992px){
   .main-nav-outer{
     width: initial;
@@ -144,6 +150,13 @@ ul{
     border:none;
   }
 
+  .nav-icons .dropdown-menu{
+    margin-left: -262px;
+  }
+
+  .nav-icons .dropdown-menu::before{
+    right: 8px;
+  }
 
 }
 /* Конец Хедера */

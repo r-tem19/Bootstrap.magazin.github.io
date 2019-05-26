@@ -33,34 +33,43 @@
         <li class="nav-items"><a class="nav-link" href="#">Мужчины</a></li>
         <li class="nav-items"><a class="nav-link" href="#">Женщины</a></li>
         <li class="nav-items"><a class="nav-link" href="#">Дети</a></li>
-        <li class="nav-items"><a class="nav-link" href="#">Новые поступления</a></li>
+        <li class="nav-items"><a class="nav-link" href="#">Новинки</a></li>
         <li class="nav-items"><a class="nav-link" href="#">Распродажи</a></li>
       </ul>
     </nav>
   </div>
 <!-- Конец основного меню -->
 
+
 <!-- Иконки -->
-<div class="nav-icons-conteiner d-flex justify-content-between ">
+<!-- Иконка поиска -->
+<div class="nav-icons-conteiner d-flex justify-content-between">
   <div class="nav-icons">
     <a href="#" >
       <i class="fal fa-search text-clipped"></i>
     </a>
   </div>
+<!-- Конец иконки поиска -->
 
+
+<!-- Корзина -->
   <div class="nav-icons">
     <a href="#">
       <i class="fal fa-shopping-bag bag-item-count text-clipped"></i>
       <span class="badge">2</span>
     </a>
   </div>
+  <!-- Конец корзины -->
 
+
+<!-- Регистрация -->
   <div class="nav-icons">
     <div class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">
         <i class="fal fa-user text-clipped"></i>
       </a>
 
+<!-- Выпадающая форма регистрации -->
       <div class="dropdown-menu">
         <form class="p-2 text-secondary" action="">
 <div class="form-group">
@@ -80,25 +89,85 @@
 <button type="submit" class="btn btn-bg my-2">Войти</button>
         </form>
         <div class="dropdown-divider mt-0"></div>
-        <a href="#" class="dropdown-item">Не зарегестрированы? Пройти регистрацию.</a>
-        <a href="#" class="dropdown-item">Забыли пароль? Восстановить.</a>
+        <a href="#" class="dropdown-item">Пройти регистрацию.</a>
+        <a href="#" class="dropdown-item">Восстановить пароль.</a>
       </div>
+<!-- Конец выпадающей формы регистрации -->
 
     </div>
 
   </div>
+<!-- Конец регистрации -->
 
-  <div class="nav-icons">
+
+<!-- Иконка меню для моб -->
+  <div class="nav-icons d-lg-none">
     <a href="#">
       <i class="fal fa-bars open-menu-icon text-clipped"></i>
     </a>
   </div>
+  <!-- Конец иконки меню для моб -->
+
 </div>
 <!-- Конец иконок -->
 
   </div>
+
+<!-- Промо акций -->
+<div class="promo text-center py-2 mb-5 text-white">
+  <span>
+    <span class="text-uppercase font-weight-bold">Бесплатная доставка</span> при заказе от 1000грн.
+  </span>
+</div>
+<!-- Конец промо -->
+
+
+<!-- Старт слайдера -->
+<div class="container">
+  <div class="carousel slide" id="carousel-indicators" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li class="active" data-target="#carousel-indicators" data-slide-to="0"></li>
+      <li data-target="#carousel-indicators" data-slide-to="1"></li>
+      <li data-target="#carousel-indicators" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="#">
+    <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-1-mobile.jpeg">
+    <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-1.jpeg">
+        </a>
+     </div>
+
+     <div class="carousel-item">
+       <a href="#">
+   <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-2-mobile.jpg">
+   <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-2.jpg">
+       </a>
+    </div>
+
+    <div class="carousel-item">
+      <a href="#">
+  <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-3-mobile.jpeg">
+  <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-3.jpeg">
+      </a>
+   </div>
+   </div>
+
+<a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+  <i class="fal fa-chevron-left text-clipped"></i>
+</a>
+<a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+  <i class="fal fa-chevron-right text-clipped"></i>
+</a>
+
+</div>
+</div>
+
+<!-- Конец слайдера -->
 </header>
 <!-- Конец хедера -->
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
