@@ -7,6 +7,15 @@ a:hover{
   color: #6c757d;
 }
 
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+section{
+  padding: 50px 0;
+}
+
 ul{
   list-style: none;
   margin: 0;
@@ -183,3 +192,23 @@ ul{
 
 }
 /* Конец Хедера */
+
+/* Бренды */
+.futured-brands img{
+  max-width: 100px;
+  max-height: 100px;
+  opacity: .7;
+  transition: opacity 650ms;
+}
+
+.futured-brands img:hover{
+  opacity: 1;
+}
+/* Конец брендов */
+
+/* Женская коллекция */
+.hero-img{
+  padding: 15px;
+  margin:auto;
+}
+/* Конец женской коллекции */
