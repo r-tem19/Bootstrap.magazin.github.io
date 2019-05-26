@@ -43,6 +43,12 @@ ul{
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
+
+.section-heading h1{
+  font-size: 20px;
+  font-weight: normal;
+  margin:0
+}
 /* Конец глобальных стилей */
 
 /* Хедер */
