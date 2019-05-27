@@ -40,7 +40,7 @@ ul{
 .text-clipped{
   padding: 1px;
   background: linear-gradient(to bottom, #23d5e3, #9149b9);
-  -webkit-background-clip: text !important;
+  -webkit-background-clip: text;
     color: transparent;
 }
 
